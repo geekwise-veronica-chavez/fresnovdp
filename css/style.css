@@ -16,7 +16,7 @@ header{
     height: 10rem;
     color: white;
     font-size: 1rem;
-    background-color: red;
+    background-color:#e10105 ;
 }
 header>a>img{
     margin: 0 auto;
@@ -24,6 +24,8 @@ header>a>img{
     width: 25%;
     height: 10rem;
     position: relative;
+    background: transparent;
+
     
 }
 header>nav{
@@ -68,15 +70,16 @@ a:hover{
 }
 
 main{
-    width: 70%;
-    height: 800px;
+    width: 80%;
+    height: 450px;
     margin: 0 auto;
+    
     padding: 0;
     background-color: purple;
     box-sizing: border-box;
     display: inline-block;
     position: relative;
-    background: transparent;
+   
 }
 
 section{
@@ -87,6 +90,7 @@ section{
     padding: 0;  
     display: inline;
     background-color: aqua;
+    text-align: center;
     
 }
 #sec1{
@@ -97,16 +101,20 @@ section{
 }
 section>ul>li{
     box-sizing: border-box;
-    display:block;
-    text-decoration: none;
+    display:inline block;
+    list-style: none;
+    text-align: left;
 }
-#list{
+#list ul{
     margin: 0 auto;
     padding: 0;
     width:calc(100%/2);
     height: 300px;
     float: left;
-    text-align: center;
+    text-align: left;
+    display: block;
+    list-style-type: none;
+    
 
 }
 #info{
@@ -133,5 +141,25 @@ section>ul>li{
     margin: 0 auto;
     padding: 0;  
     box-sizing: border-box;
+    display: block;
     background-color: aqua;
+}
+footer{
+    margin: auto 0;
+    padding: 0px;
+    width: 80%;
+    height: 150px;
+    text-align: center;
+    letter-spacing: 20px
+}
+#copy{
+    width: 100%;
+    margin: auto 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 0;
+    font-size: 12px;
+}
+#face{
+    float: right;
 }
