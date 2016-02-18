@@ -70,10 +70,16 @@ a:hover{
 }
 section{
     width: 100%;
-    margin-left: 250px;
+    margin-left: 50px;
     text-align: center;
     
 }
 #frame{
+    width:60%;  
     
+}
+p{
+    width: 30%;
+    height: 300px;
+    font-size: 15px;
 }
