@@ -156,9 +156,17 @@ footer{
     width: 100%;
     margin: auto 0;
     padding: 0;
-    text-align: center;
+    text-align: left;
     letter-spacing: 0;
     font-size: 12px;
+}
+#donate{
+    margin: auto;
+    padding:0;
+    text-align: center;
+    margin-left: 610px;
+    
+   
 }
 #face{
     float: right;
