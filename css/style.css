@@ -72,12 +72,12 @@ a:hover{
 main{
     width: 80%;
     height: 450px;
-    margin: 0 auto;
-    
+    margin: 0 auto; 
     padding: 0;
     box-sizing: border-box;
     display: inline-block;
     position: relative;
+    text-align: center;
    
 }
 
@@ -106,9 +106,10 @@ section>ul>li{
 }
 #list ul{
     margin: 0 auto;
-    padding: 0;
-    width:calc(100%/2);
-    height: 300px;
+    margin-left: 180px;
+    padding: 50px;
+    width:30%;
+    height: 200px;
     float: left;
     text-align: left;
     display: block;
@@ -119,9 +120,9 @@ section>ul>li{
 #info{
     margin: 0 auto;
     padding: 0;
-    width:calc(100%/2);
+    width:40%;
     height:400px;
-    float: right;
+    float: left;
 }
 #gm{
     margin: 0 auto;
@@ -144,7 +145,7 @@ section>ul>li{
     background-color: aqua;
 }
 footer{
-    margin: auto 0;
+    margin: auto;
     padding: 0px;
     width: 80%;
     height: 150px;
