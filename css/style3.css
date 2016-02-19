@@ -89,36 +89,68 @@ a:hover{
 
     text-decoration: underline;
 }
-#mainabout{
-    width: 70%;
+#about{
+    width: 80%;
     height: 500px;
     margin: 0;
     padding: 0;
+    
 }
-art{
+#art{
     width: 100%;
     margin: 0 auto;
     padding: 0;  
+    text-align: left;
+    height: 600px;
+    margin-left: 172px;
 }
 article:nth-of-type(1){
     
     width: 70%;
-    font-size: 12px;
+    font-size: 15px;
     margin: 0 auto;
-    padding: 0;
+    padding: 10px;
     
 }
-
-
-
-
+article:nth-of-type(2){
+     width: 70%;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 15px;
+    
+}
+article:nth-of-type(3){
+      width: 70%;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 5px;
+}
+article:nth-of-type(4){
+      width: 70%;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 0;
+}
+article:nth-of-type(5){
+      width: 70%;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 5px;
+}
+article:nth-of-type(6){
+      width: 70%;
+    font-size: 15px;
+    margin: 0 auto;
+    padding: 5px;
+}
 footer{
-    margin: auto;
+    margin:auto;
     padding: 0px;
     width: 80%;
     height: 150px;
     text-align: center;
-    letter-spacing: 20px
+    letter-spacing: 40px;
+    margin-left: 280px
 }
 #copy{
     width: 100%;
@@ -132,7 +164,7 @@ footer{
     margin: auto;
     padding:0;
     text-align: center;
-    margin-left: 610px;
+    margin-left: 640px;
     
    
 }
