@@ -1,93 +1,113 @@
 html, body{
-    margin: 0 auto;
-    padding: 0;
+    margin:0;
+    padding:0;
     font-size: 62.5%;
     box-sizing: border-box;
-    
-}
-body{
-    margin: 0;
-    padding: 0;
-    background color: black;
     width: 100%;
-    height: 100%;
-   
-
-    
 }
+
 header{
     margin: 0 auto;
     padding: 0;
     width: 100%;
-    height: 10rem;
-    color: white;
     font-size: 1rem;
     background-color:#e10105 ;
 }
-header>a>img{
+
+#top{
+    margin: 0;
+    padding: 0;
+    height: 11.5rem;
+    background-color: #e10105;
+}
+section>span{
     margin: 0 auto;
     padding: 0;
-    width: 25%;
-    height: 10rem;
-    position: relative;
-   
-
-    
-}
-header>nav{
-    width: 100%;
-    height:2rem; 
-    text-align: center;
-    position: relative;
-    top: -145px;
-
-}
-header>nav>ul{
-    list-style: none;
     display: inline-block;
-    width: 100%;
-    margin: auto 0;
-    padding:0;
+    clear: both;
+
     
 }
-header>nav>ul>li{
+section>span>img{
     margin: 0;
-    padding: 15px;
-    display: inline-block;
-    text-transform: capitalize;
-    color: #ffffff; 
+    padding: 0;
+    width:calc(230px/2);
+    background-color: #e10105;
+
 }
-a{
+#vet_logo{
+    margin-left: 15%;
+    text-align: center;
+    float: left;
+}
+#vet_logo>img{
+   
+    float: right;
+    background: #e10105;
+}
+section>nav>{
+    width: 100%;
+    margin: 0;
+    padding:0;
+    height: 11.5rem;
+    background-color: #e10105;
+    text-align: center;
+    float: left;
+    
+}
+#sponsor>img{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+nav>ul{
+    margin: 0 auto;
+    padding:0;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+nav>ul>li{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    line-height: 18rem;
+    width:130px;
+    height: 11.5rem;
+    float: left;
+}
+nav>ul>li>a{
+    display: inline-block;
     text-decoration: none;
     color:white;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 a:hover{
 
     text-decoration: underline;
 }
-#sponsor{
-    width:16%;
-    height: 10rem;
-    float: right;
-    position: relative;
-    top: -250px;
-    margin-right: 50px;
-}
-#main{
+#mainabout{
     width: 70%;
     height: 500px;
     margin: 0;
     padding: 0;
-    background-color: azure;
 }
-section{
+art{
     width: 100%;
+    margin: 0 auto;
+    padding: 0;  
+}
+article:nth-of-type(1){
+    
+    width: 70%;
+    font-size: 12px;
     margin: 0 auto;
     padding: 0;
     
 }
-
 
 
 
