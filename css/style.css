@@ -5,6 +5,13 @@ html, body{
     box-sizing: border-box;
     width: 100%;
 }
+@media (max-width:791px) and (orientation landscape){
+    section>nav>ul>li{
+            font-size: 62.5%;
+    }  
+}
+    
+}
 header{
     margin: 0 auto;
     padding: 0;
@@ -181,7 +188,7 @@ footer{
     margin: auto;
     padding:0;
     text-align: center;
-    margin-left: 610px;
+    margin-left: 590px;
     
    
 }
