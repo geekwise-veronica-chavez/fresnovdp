@@ -5,11 +5,7 @@ html, body{
     box-sizing: border-box;
     width: 100%;
 }
-@media (max-width:791px) and (orientation landscape){
-    section>nav>ul>li{
-            font-size: 62.5%;
-    }  
-}
+
     
 }
 header{
@@ -17,7 +13,7 @@ header{
     padding: 0;
     width: 100%;
     font-size: 1rem;
-    background-color:#e10105 ;
+    background-color:#e10105;
 }
 section{
     margin: 0;
@@ -79,6 +75,7 @@ nav>ul>li{
     width:150px;
     height: 11.5rem;
     float: left;
+    background-color: #e10105;
 }
 nav>ul>li>a{
     display: inline-block;
