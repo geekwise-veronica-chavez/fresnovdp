@@ -4,6 +4,7 @@ html, body{
     font-size: 62.5%;
     box-sizing: border-box;
     width: 100%;
+  
 }
 
 header{
@@ -96,7 +97,8 @@ a:hover{
     margin-right: 178px;
     background: transparent;
     position: relative;
-    opacity: .3;
+    opacity: .2;
+    max-height: 200px;
 }
 main{
     width: 80%;
@@ -107,7 +109,8 @@ main{
     display: inline-block;
     position: relative;
     text-align: center;
-    top:-780px;
+    top:-180px;
+    max-height: 580px;
    
 }
 
@@ -180,7 +183,8 @@ footer{
     text-align: center;
     letter-spacing: 20px;
     position: relative;
-    top: -700px;
+    top: -100px;
+    max-height: 150px;
 }
 #copy{
     width: 100%;
@@ -196,7 +200,7 @@ footer{
     text-align: center;
     margin-left: 465px;
     position: relative;
-    top: -705px;
+    top: -105px;
     
    
 }
