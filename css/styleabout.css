@@ -1,100 +1,109 @@
-html, body{
+html,body{    
     margin:0;
     padding:0;
-    font-size: 62.5%;
-    box-sizing: border-box;
-    width: 100%;
+    font-size:62.5%;
+    box-sizing:border-box;
+    width:100%;
 }
 
 header{
-    margin: 0 auto;
-    padding: 0;
-    width: 100%;
-    font-size: 1rem;
-    background-color:#e10105 ;
+    width:100%;
+    height: 12rem;
+    margin:0;
+    padding:0;
+    font-size:1.8rem;
+    background-color:#e10105;
 }
 
 #top{
-    margin: 0;
-    padding: 0;
-    height: 11.5rem;
-    background-color: #e10105;
+    margin:0;
+    padding:0;
+    height:11.5rem;
+    background-color:#e10105;
 }
-section>span{
-    margin: 0 auto;
-    padding: 0;
-    display: inline-block;
-    clear: both;
 
-    
+#top > #vet_logo{
+    display:inline-block;
+    margin:0;
+    padding:0;
+    clear:both;
 }
-section>span>img{
-    margin: 0;
-    padding: 0;
-    width:calc(230px/2);
-    background-color: #e10105;
-
+#top > #vet_logo > img{
+    margin:0;
+    padding:0;
+    width:11rem;
+    max-height:11rem;
+    background-color:#e10105;
 }
 #vet_logo{
-    margin-left: 15%;
-    text-align: center;
-    float: left;
+    text-align:center;
+    float:left;
+    width:20%;
 }
-#vet_logo>img{
-   
-    float: right;
-    background: #e10105;
-}
-section>nav>{
-    width: 100%;
-    margin: 0;
-    padding:0;
-    height: 11.5rem;
-    background-color: #e10105;
-    text-align: center;
-    float: left;
-    
-}
-#sponsor>img{
-    margin: 0;
-    padding: 0;
-    float: left;
-}
-nav>ul{
-    margin: 0 auto;
-    padding:0;
-    text-align: center;
-    text-transform: capitalize;
-    
-}
-nav>ul>li{
-    margin: 0;
-    padding: 0;
-    display: inline;
-    line-height: 18rem;
-    width:130px;
-    height: 11.5rem;
-    float: left;
-}
-nav>ul>li>a{
-    display: inline-block;
-    text-decoration: none;
-    color:white;
-    font-size: 18px;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-a:hover{
 
-    text-decoration: underline;
+
+#vet_logo> img{
+    float:right;
+    background-color:#e10105;
+}
+
+
+#top > nav{
+    margin:0;
+    padding:0;
+    height:11.5rem;
+    background-color:#e10105;
+    width:60%;
+    text-align: center;
+    float:left;
+}
+
+
+
+#sponsor > img {
+    margin:0;
+    padding:0;
+    width: 11rem;
+    max-height: 11rem;
+    background-color: #e10105;
+    float:left;
+}
+
+nav > ul{
+    margin:0 auto;
+    padding:0;
+    text-align:center;
+    text-transform: capitalize;
+}
+
+nav > ul > li{
+    margin:0;
+    padding:0;
+    display:inline;
+    line-height:11.5rem;
+    width:calc(100%/5);
+    height:11.5rem;
+    float:left
+}
+
+nav > ul > li > a{
+    display:inline-block;
+    margin:0;
+    padding:0;
+    width:100%;
+    text-decoration:none;
+    color:#ffffff;
+}
+
+nav > ul > li > a:hover{
+    text-decoration:underline;
+    background-color:#e10105;
 }
 #flag{
     margin: 0;
     padding: 0;
     display: block;
     text-align: center;
-    margin-right: 50px;
     background: transparent;
     position: relative;
     opacity: .2;
@@ -157,33 +166,30 @@ article:nth-of-type(6){
     padding: 5px;
 }
 footer{
-    margin:auto;
-    padding: 0px;
-    width: 80%;
+    margin:0;
+    padding: 0;
+    float: left;
+    width: 100%;
     height: 150px;
+    display: block;
     text-align: center;
-    letter-spacing: 40px;
-    margin-left: 280px;
+    letter-spacing: 20px;
     position: relative;
-    top: -130px;
+    max-height: 150px;
 }
 #copy{
-    width: 100%;
-    margin: auto 0;
+    width: 60%;
+    display: block;
+    text-align: center;
     padding: 0;
-    text-align: left;
     letter-spacing: 0;
     font-size: 12px;
 }
-#donate{
-    margin: auto;
-    padding:0;
-    text-align: center;
-    margin-left: 640px;
-    position: relative;
-    top: -130px;
-   
-}
+
 #face{
+    display: inline-block;
+    margin:0;
+    padding: 0;
     float: right;
+    margin-right: 200px;
 }

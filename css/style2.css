@@ -155,13 +155,7 @@ footer{
     letter-spacing: 0;
     font-size: 12px;
 }
-#donate{
-    margin:0;
-    padding:0;
-    float: none;
-    display: block;    
-   
-}
+
 #face{
     display: inline-block;
     margin:0;
