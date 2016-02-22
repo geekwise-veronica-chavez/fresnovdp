@@ -97,7 +97,8 @@ a:hover{
     margin-right: 50px;
     background: transparent;
     position: relative;
-    opacity: .3;
+    opacity: .2;
+    max-height: 150px;
 }
 #about{
     width: 80%;
@@ -114,7 +115,7 @@ a:hover{
     height: 600px;
     margin-left: 172px;
     position: relative;
-    top: -800px;
+    top: -130px;
 }
 article:nth-of-type(1){
     
@@ -164,7 +165,7 @@ footer{
     letter-spacing: 40px;
     margin-left: 280px;
     position: relative;
-    top: -800px;
+    top: -130px;
 }
 #copy{
     width: 100%;
@@ -180,7 +181,7 @@ footer{
     text-align: center;
     margin-left: 640px;
     position: relative;
-    top: -800px;
+    top: -130px;
    
 }
 #face{
