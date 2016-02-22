@@ -290,11 +290,12 @@ footer{
     font-size: 12px;
 }
 #donate{
-    display: block;
-    margin:0 auto;
+    margin:0;
     padding:0;
     position: relative;
     top: -105px;
+    float: none;
+    display: block;    
    
 }
 #face{
