@@ -108,7 +108,6 @@ nav > ul > li > a:hover{
 }
 
 #main{
-    height: 700px;
     margin: 0 auto;
     padding: 0;
     width: 100%;
@@ -129,7 +128,6 @@ nav > ul > li > a:hover{
 }
 p{
     width: 60%;
-    height: 120px;
     font-size: 15px;
     text-align: center;
     margin:0 auto;
@@ -144,7 +142,6 @@ footer{
     text-align: center;
     letter-spacing: 20px;
     position: relative;
-    top: -100px;
     max-height: 150px;
 }
 #copy{
