@@ -110,7 +110,6 @@ main{
     margin: 0 auto;
     padding:0 ;
     width: 80%;
-    height: 420px;
     background-color: #fff;
     
 }
@@ -128,7 +127,6 @@ main{
     padding: 0;
     display: block;
     width: calc(100%/2);
-    height: 400px;
     background-color: #fff;
     float: left;
     font-size: 15px;
